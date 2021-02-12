@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Gilroy Medium';
+    url('Gilroy-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Gilroy Bold", sans-serif;
+    color: #070707;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 33px 0;
+}
+
+.header-link{
+    font-size: 18px;
+    color: #828282;
+}
+
+a:hover{
+    color: #070707;
+    transition: 0.9ms;
+}
+
+.line{
+    color: #828282;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.name-author {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 59px;
+}
+
+.home-info{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.changed-language{
+    transform: rotate(-90deg) translate(35%, 100%);
+    text-align: end;
+}
+
+.changed-language a{
+    border:0;
+    cursor: pointer;
+    background: white;
+    color: #828282;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: flex-end;
+}
+#slider {
+
+}
+
+#slider img {
+    width: 100%;
+    margin-top: 50px;
+    min-height: 387px;
+}
+
+
+
+a:hover{
+    color: #070707;
+    transition: 0.9ms;
+}
+
+.about-me {
+    margin: 104px 0;
+    background-color: #F6F6F6;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 110px;
+}
+.head-text {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+.text-about{
+    margin-top: 17px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.skills{
+    margin-bottom: 170px;
+
+}
+.img-skills{
+  height: 89px;
+}
+
+.skill{
+    position: relative;
+    width: 170px;
+}
+.title-skill {
+    margin: 24px 0;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.rat{
+    position: absolute;
+    bottom: -40px;
+}
+.contacts{
+    padding-top: 114px;
+    text-align: center;
+    background-color: #F6F6F6;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn-sent {
+    padding: 12px 30px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    outline: none;
+    margin-bottom: 85px;
+}
+.contacts-icon{
+    margin-bottom: 45px;
+}
+.contacts-icon a:not(:last-child){
+    margin-right: 60px;
+}
+
+.text-contact{
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 120px;
+}
